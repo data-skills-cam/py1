@@ -1,6 +1,6 @@
 # Introduction to Python Programming
 
-## What is Python?
+### What is Python?
 
 Python is a popular programming language [^survey-python], especially in the field of data science. Python was named after the “Monty
 Python’s Flying Circus” BBC show (not after the reptile!)[^python-doc-tutorial].
@@ -11,7 +11,7 @@ The Python language has three very desirable features:
 3. Python is a Very High-Level Language (VHLL); allows one to express complex operations in one statement.
 
 
-## Why learn Python?
+### Why learn Python?
 
 There are many good reasons why it is a good idea to choose to learn Python:
 
@@ -32,5 +32,5 @@ There are many good reasons why it is a good idea to choose to learn Python:
   to code Python in.
 
   
-[^survey-python]: [Stackoverflow Developer Survey 2022](https://survey.stackoverflow.co/2022/#most-popular-technologies-language)
+[^survey-python]: [https://survey.stackoverflow.co/2024/technology)
 [^python-doc-tutorial]: [Python Documentation Tutorial](https://docs.python.org/3/tutorial/index.html)

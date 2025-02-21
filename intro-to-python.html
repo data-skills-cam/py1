@@ -62,8 +62,8 @@
     <script>DOCUMENTATION_OPTIONS.pagename = 'intro-to-python';</script>
     <link rel="index" title="Index" href="genindex.html" />
     <link rel="search" title="Search" href="search.html" />
-    <link rel="next" title="1.3. Introduction to PyCharm" href="intro-to-pycharm.html" />
-    <link rel="prev" title="Session 1: Introduction to Core Python Programming Concepts" href="session1.html" />
+    <link rel="next" title="Introduction to PyCharm" href="intro-to-pycharm.html" />
+    <link rel="prev" title="Introduction to Core Python Programming Concepts" href="session1.html" />
   <meta name="viewport" content="width=device-width, initial-scale=1"/>
   <meta name="docsearch:language" content="en"/>
   </head>
@@ -147,8 +147,14 @@
   
   
   
+    
+    
+      
+    
+    
+    <img src="_static/Python-logo_3.png" class="logo__image only-light" alt="Python Programming Session 1 - Home"/>
+    <script>document.write(`<img src="_static/Python-logo_3.png" class="logo__image only-dark" alt="Python Programming Session 1 - Home"/>`);</script>
   
-    <p class="title logo__title">Python Programming Session 1</p>
   
 </a></div>
         <div class="sidebar-primary-item">
@@ -168,14 +174,21 @@
         <ul class="nav bd-sidenav bd-sidenav__home-link">
             <li class="toctree-l1">
                 <a class="reference internal" href="session1.html">
-                    Session 1: Introduction to Core Python Programming Concepts
+                    Introduction to Core Python Programming Concepts
                 </a>
             </li>
         </ul>
-        <p aria-level="2" class="caption" role="heading"><span class="caption-text">Session 1</span></p>
+        <p aria-level="2" class="caption" role="heading"><span class="caption-text">Session 1 &amp; 2</span></p>
 <ul class="current nav bd-sidenav">
 <li class="toctree-l1 current active has-children"><a class="current reference internal" href="#">1. Introduction to Python Programming</a><input checked="" class="toctree-checkbox" id="toctree-checkbox-1" name="toctree-checkbox-1" type="checkbox"/><label class="toctree-toggle" for="toctree-checkbox-1"><i class="fa-solid fa-chevron-down"></i></label><ul>
-<li class="toctree-l2"><a class="reference internal" href="intro-to-pycharm.html">1.3. Introduction to PyCharm</a></li>
+<li class="toctree-l2"><a class="reference internal" href="intro-to-pycharm.html">Introduction to PyCharm</a></li>
+<li class="toctree-l2"><a class="reference internal" href="running_python.html">1.4. Creating and running Python files</a></li>
+<li class="toctree-l2"><a class="reference internal" href="variables.html">1.5. Variables</a></li>
+<li class="toctree-l2"><a class="reference internal" href="data_types.html">1.6. Data Types</a></li>
+<li class="toctree-l2"><a class="reference internal" href="calling_functions.html">1.7. Calling functions</a></li>
+<li class="toctree-l2"><a class="reference internal" href="help.html">1.8. Help</a></li>
+<li class="toctree-l2"><a class="reference internal" href="data_structures.html">Data Structures</a></li>
+<li class="toctree-l2"><a class="reference internal" href="strings.html">1.10. Working with strings</a></li>
 </ul>
 </li>
 </ul>
@@ -219,53 +232,6 @@
         <div class="header-article-item">
 
 <div class="article-header-buttons">
-
-
-
-
-
-<div class="dropdown dropdown-source-buttons">
-  <button class="btn dropdown-toggle" type="button" data-bs-toggle="dropdown" aria-expanded="false" aria-label="Source repositories">
-    <i class="fab fa-github"></i>
-  </button>
-  <ul class="dropdown-menu">
-      
-      
-      
-      <li><a href="https://github.com/executablebooks/jupyter-book" target="_blank"
-   class="btn btn-sm btn-source-repository-button dropdown-item"
-   title="Source repository"
-   data-bs-placement="left" data-bs-toggle="tooltip"
->
-  
-
-<span class="btn__icon-container">
-  <i class="fab fa-github"></i>
-  </span>
-<span class="btn__text-container">Repository</span>
-</a>
-</li>
-      
-      
-      
-      
-      <li><a href="https://github.com/executablebooks/jupyter-book/issues/new?title=Issue%20on%20page%20%2Fintro-to-python.html&body=Your%20issue%20content%20here." target="_blank"
-   class="btn btn-sm btn-source-issues-button dropdown-item"
-   title="Open an issue"
-   data-bs-placement="left" data-bs-toggle="tooltip"
->
-  
-
-<span class="btn__icon-container">
-  <i class="fas fa-lightbulb"></i>
-  </span>
-<span class="btn__text-container">Open issue</span>
-</a>
-</li>
-      
-  </ul>
-</div>
-
 
 
 
@@ -387,9 +353,9 @@ document.write(`
                 <article class="bd-article">
                   
   <section class="tex2jax_ignore mathjax_ignore" id="introduction-to-python-programming">
-<h1><span class="section-number">1. </span>Introduction to Python Programming<a class="headerlink" href="#introduction-to-python-programming" title="Link to this heading">#</a></h1>
+<h1>Introduction to Python Programming<a class="headerlink" href="#introduction-to-python-programming" title="Link to this heading">#</a></h1>
 <section id="what-is-python">
-<h2><span class="section-number">1.1. </span>What is Python?<a class="headerlink" href="#what-is-python" title="Link to this heading">#</a></h2>
+<h2>What is Python?<a class="headerlink" href="#what-is-python" title="Link to this heading">#</a></h2>
 <p>Python is a popular programming language <a class="footnote-reference brackets" href="#survey-python" id="id1" role="doc-noteref"><span class="fn-bracket">[</span>1<span class="fn-bracket">]</span></a>, especially in the field of data science. Python was named after the “Monty
 Python’s Flying Circus” BBC show (not after the reptile!)<a class="footnote-reference brackets" href="#python-doc-tutorial" id="id2" role="doc-noteref"><span class="fn-bracket">[</span>2<span class="fn-bracket">]</span></a>.
 The Python language has three very desirable features:</p>
@@ -401,7 +367,7 @@ The Python language has three very desirable features:</p>
 </ol>
 </section>
 <section id="why-learn-python">
-<h2><span class="section-number">1.2. </span>Why learn Python?<a class="headerlink" href="#why-learn-python" title="Link to this heading">#</a></h2>
+<h2>Why learn Python?<a class="headerlink" href="#why-learn-python" title="Link to this heading">#</a></h2>
 <p>There are many good reasons why it is a good idea to choose to learn Python:</p>
 <ul class="simple">
 <li><p><strong>Easy to learn</strong>: Python is one of the easiest programming languages to learn as it is readable as its syntax is very
@@ -424,7 +390,7 @@ to code Python in.</p></li>
 <aside class="footnote-list brackets">
 <aside class="footnote brackets" id="survey-python" role="doc-footnote">
 <span class="label"><span class="fn-bracket">[</span><a role="doc-backlink" href="#id1">1</a><span class="fn-bracket">]</span></span>
-<p><a class="reference external" href="https://survey.stackoverflow.co/2022/#most-popular-technologies-language">Stackoverflow Developer Survey 2022</a></p>
+<p>[<a class="reference external" href="https://survey.stackoverflow.co/2024/technology">https://survey.stackoverflow.co/2024/technology</a>)</p>
 </aside>
 <aside class="footnote brackets" id="python-doc-tutorial" role="doc-footnote">
 <span class="label"><span class="fn-bracket">[</span><a role="doc-backlink" href="#id2">2</a><span class="fn-bracket">]</span></span>
@@ -472,7 +438,7 @@ to code Python in.</p></li>
       <i class="fa-solid fa-angle-left"></i>
       <div class="prev-next-info">
         <p class="prev-next-subtitle">previous</p>
-        <p class="prev-next-title">Session 1: Introduction to Core Python Programming Concepts</p>
+        <p class="prev-next-title">Introduction to Core Python Programming Concepts</p>
       </div>
     </a>
     <a class="right-next"
@@ -480,7 +446,7 @@ to code Python in.</p></li>
        title="next page">
       <div class="prev-next-info">
         <p class="prev-next-subtitle">next</p>
-        <p class="prev-next-title"><span class="section-number">1.3. </span>Introduction to PyCharm</p>
+        <p class="prev-next-title">Introduction to PyCharm</p>
       </div>
       <i class="fa-solid fa-angle-right"></i>
     </a>
@@ -523,6 +489,13 @@ By Alexia Cardona
   
   <div class="footer-item">
     
+
+  <p class="copyright">
+    
+      © Copyright 2023.
+      <br/>
+    
+  </p>
 
   </div>
   
