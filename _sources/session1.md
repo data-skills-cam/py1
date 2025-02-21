@@ -68,7 +68,24 @@ This Session is composed of the following exercises.
 * - {numref}`split-strings`
   - **Splitting strings**:  This exercise counts the number of words in a sentence.
   - {octicon}`star-fill;1em;sd-text-warning` {octicon}`star-fill;1em;sd-text-warning` {octicon}`star;1em;sd-text-warning` 
-
+* - {numref}`month-if`
+  - **`if` statement**:  This exercise uses the `if` statement to convert a number into a month.
+  - {octicon}`star-fill;1em;sd-text-warning` {octicon}`star;1em;sd-text-warning` {octicon}`star;1em;sd-text-warning`
+* - {numref}`month-match`
+  - **`match` statement**:  This exercise is the same as the previous exercise but uses a `match` statement as an improvement.
+  - {octicon}`star-fill;1em;sd-text-warning` {octicon}`star;1em;sd-text-warning` {octicon}`star;1em;sd-text-warning`
+* - {numref}`for-exercise`
+  - **`for` loop**:  This exercise prints a list of words.
+  - {octicon}`star-fill;1em;sd-text-warning` {octicon}`star;1em;sd-text-warning` {octicon}`star;1em;sd-text-warning`
+* - {numref}`range-exercise`
+  - **`range()`**:  This exercise explores the function `range()`.
+  - {octicon}`star-fill;1em;sd-text-warning` {octicon}`star;1em;sd-text-warning` {octicon}`star;1em;sd-text-warning`
+* - {numref}`break-continue`
+  - **`break and continue`**:  This exercise explores the effect of the `break` and `continue` statements in a loop.
+  - {octicon}`star-fill;1em;sd-text-warning` {octicon}`star;1em;sd-text-warning` {octicon}`star;1em;sd-text-warning`
+* - {numref}`num-prog`
+  - **`while` loop**:  This exercise creates a numbers program by reading in the user's input.
+  - {octicon}`star-fill;1em;sd-text-warning` {octicon}`star-fill;1em;sd-text-warning` {octicon}`star;1em;sd-text-warning`
 ```
 
 
