@@ -19,10 +19,9 @@ the files and environment associated to your code.
 {bdg-primary}`PyCharm`
 1. In PyCharm's Welcome screen, click **New Project**.
 2. Choose **Pure Python** to create a Python project.  Choose the location of the project in the **Location** field.  
-Name your project `learnPythonProject`.
-3. Choose **Conda** in the **New environment using** field as shown below.
-![pycharm_project](images/project1.png)
-4. Now click the **Create** button to create the project.
+Name your project `learnPythonProject` as shown below.
+![pycharm_project](images/pycharm_project.png)
+3. Now click the **Create** button to create the project.
 
 :::
 
